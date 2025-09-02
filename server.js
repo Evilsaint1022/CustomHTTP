@@ -42,6 +42,8 @@ const MIME_TYPES = {
     '.flv': 'video/x-flv'
 };
 
+console.log('Server is Starting...'.green.bold)
+
 rl.question('Enter the directory you want to serve: '.cyan, async inputDir => {
 
     const ROOT = path.resolve(inputDir);

@@ -5,8 +5,10 @@ setlocal
 if not exist "node_modules" (
     echo node_modules folder not found. Running npm install...
     npm install
-)
+	pause
+	node server.js
+) else (
 
-:: Start the server
-echo Starting server...
+:: Start Up Server
 node server.js
+);
