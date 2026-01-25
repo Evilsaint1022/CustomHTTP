@@ -1,4 +1,9 @@
 {
+  "name": "customhttp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  
   "dependencies": {
     "archiver": "^7.0.1",
     "axios": "^1.13.2",
